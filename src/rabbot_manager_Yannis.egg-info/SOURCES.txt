@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/rabbit_manager/__init__.py
+src/rabbit_manager/mnager.py
+src/rabbot_manager_Yannis.egg-info/PKG-INFO
+src/rabbot_manager_Yannis.egg-info/SOURCES.txt
+src/rabbot_manager_Yannis.egg-info/dependency_links.txt
+src/rabbot_manager_Yannis.egg-info/top_level.txt

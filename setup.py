@@ -8,12 +8,12 @@ setuptools.setup(
     version="0.0.1",
     author="Yannis Nikoloudis",
     author_email="author@example.com",
-    description="A small example package",
+    description="A small rabbitMQ package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/gnikoloudakis/rabbit_manager",
     project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+        "Bug Tracker": "https://github.com/gnikoloudakis/rabbit_manager",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
