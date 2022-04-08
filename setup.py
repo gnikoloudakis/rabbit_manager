@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="rabbit-manager",
-    version="0.0.3",
+    version="0.0.3a",
     author="Yannis Nikoloudis",
     author_email="author@example.com",
     description="A small rabbitMQ package",

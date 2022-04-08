@@ -27,7 +27,7 @@ class RabbitManager:
     def get_channel(self):
         return self.channel
 
-    def send_message(self, exchange: str, routing_key: str, message: bytes):
+    def send_message(self, exchange: str, routing_key: str, message):
         try:
             self.channel.basic_publish(
                 exchange=exchange,
