@@ -32,7 +32,7 @@ class RabbitManager:
             self.channel.basic_publish(
                 exchange=exchange,
                 routing_key=routing_key,
-                body=json.dumps(message).encode('utf-8'),
+                body=message,
                 properties=pika.BasicProperties(
                     delivery_mode=2,  # make message persistent
                 ))
