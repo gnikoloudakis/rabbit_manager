@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: rabbit-manager
-Version: 0.0.2
+Version: 0.0.3
 Summary: A small rabbitMQ package
 Home-page: https://github.com/gnikoloudakis/rabbit_manager
 Author: Yannis Nikoloudis

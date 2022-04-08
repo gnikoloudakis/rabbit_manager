@@ -21,6 +21,12 @@ class RabbitManager:
         except Exception as e:
             print(e.__str__())
 
+    def get_connection(self):
+        return self.connection
+
+    def get_channel(self):
+        return self.channel
+
     def send_message(self, exchange: str, routing_key: str, message: bytes):
         try:
             self.channel.basic_publish(
