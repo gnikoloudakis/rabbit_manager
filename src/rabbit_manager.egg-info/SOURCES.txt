@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/rabbit_manager/__init__.py
+src/rabbit_manager/mnager.py
+src/rabbit_manager.egg-info/PKG-INFO
+src/rabbit_manager.egg-info/SOURCES.txt
+src/rabbit_manager.egg-info/dependency_links.txt
+src/rabbit_manager.egg-info/top_level.txt
